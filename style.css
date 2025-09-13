@@ -1,0 +1,119 @@
+header {
+    background-color: #012a53;
+}
+
+body {
+    margin: 0;
+    background: url(images/stardust.png) repeat center center fixed rgba(7, 58, 228, 0.452);
+    color: white;
+}
+
+a {
+    color: red;
+}
+
+h1, h2, h3, h4 {
+    color: rgb(233, 217, 0);
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+}
+
+h2 {
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 42px;
+}
+
+h3 {
+    font-size: 38px;
+}
+
+h4 {
+    text-align: center;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28;
+}
+
+.article-image {
+    flex: 0 0 25%;
+    max-width: 300px;
+    max-height: 300px;
+    aspect-ratio: 1 / 1;
+    background-color: red;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.article-info {
+    display: flex;
+}
+
+.article-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.article-card {
+    display: flex;
+    align-items: stretch;
+}
+
+.dish-card {
+    flex: 0 0 33.33%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.dish-image {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+}
+
+.credit {
+    font-size: 10px;
+    color: yellow;
+}
+
+#page-content {
+    display: flex;
+}
+
+article {
+        background-color: #042f5a;
+    border-radius: 20px;
+    border: 4px solid rgb(233, 217, 0);
+    padding: 20px; 
+}
+
+main {
+    flex: 1;
+}
+
+aside {
+    background-color: rgb(18, 53, 209);
+    border-radius: 10px;
+    text-align: left;
+    width: 25%;
+    max-width: 255px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+aside p, aside li {
+    margin: 15px;
+    font-size: 14px;
+}
+
+aside ol, aside ul {
+    margin: 0 0 15px 15px;
+    padding: 0;
+}
