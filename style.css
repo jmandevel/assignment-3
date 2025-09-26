@@ -12,7 +12,7 @@ a {
     color: red;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
     color: rgb(233, 217, 0);
 }
 
@@ -72,6 +72,10 @@ h4 {
     box-sizing: border-box;
 }
 
+.favorited-dish-card {
+    background-color: rgb(18, 53, 209);
+}
+
 .dish-image {
     object-fit: cover;
     width: 200px;
@@ -88,7 +92,7 @@ h4 {
 }
 
 article {
-        background-color: #042f5a;
+    background-color: #042f5a;
     border-radius: 20px;
     border: 4px solid rgb(233, 217, 0);
     padding: 20px; 
@@ -96,6 +100,27 @@ article {
 
 main {
     flex: 1;
+}
+
+#favorites-table, th, td {
+    color: black;
+    background: white;
+}
+
+#favorites-table {
+    display: flex;
+}
+
+th {
+    flex: 0, 100%, 0;
+    display: flex;
+    align-items: center;
+}
+
+td {
+    flex: 0, 0, 33.33%;
+    border-collapse: collapse;
+    border: 4px solid black;
 }
 
 aside {
