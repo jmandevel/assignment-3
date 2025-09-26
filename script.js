@@ -57,7 +57,7 @@ function updateFavorites() {
                 favorite_count++;
                 total += dish.price;
                 var entry = document.createElement("p");
-                var entry_text = document.createTextNode(dish.name + " $" + dish.price.toFixed(2));
+                var entry_text = document.createTextNode(resteraunt.name + " " + dish.name + " $" + dish.price.toFixed(2));
                 entry.appendChild(entry_text);
                 favorites.appendChild(entry);
             }
